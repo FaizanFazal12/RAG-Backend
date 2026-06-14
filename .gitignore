@@ -1,2 +1,15 @@
 node_modules
 config.bat
+
+# Environment variables (secrets — never commit)
+!.env.example
+
+# Uploaded PDFs
+uploads/
+
+# Logs
+*.log
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
